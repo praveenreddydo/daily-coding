@@ -12,7 +12,6 @@ Note:
 This solution should take advantage of the expected high number of equal value
 elements.
 The following solution does at most two passes, and therefore is O(n).
-https://github.com/r1cc4rdo/daily_coding_problem/blob/master/daily_coding_problem_31_35.py#L84
 '''
 def sort(rgbs):
     left_index, right_index = 0, len(rgbs) - 1
